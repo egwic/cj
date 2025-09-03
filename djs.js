@@ -96,4 +96,34 @@ if (val9 === null || val9 === undefined) {
   val9 = "Hello";
 }
 
-console.log(val8, val9);
+//console.log(val8, val9);
+
+let animal = "Animal Name";
+//animal = "Uma";
+animal = "Zou";
+
+switch (animal) {
+
+  case "Zou" : console.log("Zou");
+
+  case "Uma" : console.log("Uma");
+
+  case "Usagi" : console.log("Usagi");
+
+  break
+
+  default : console.log("I don'know it's animal!");
+
+}
+
+try {
+  let bbb = 10 + aaa;
+  console.log(bbb);
+} catch (e) {
+  console.error(e);
+} finally {
+  console.log("後続の処理");
+}
+
+let greeting2
+
