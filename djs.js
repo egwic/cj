@@ -116,14 +116,38 @@ switch (animal) {
 
 }
 
-try {
-  let bbb = 10 + aaa;
-  console.log(bbb);
-} catch (e) {
-  console.error(e);
-} finally {
-  console.log("後続の処理");
-}
+// try {
+//   let bbb = 10 + aaa;
+//   console.log(bbb);
+// } catch (e) {
+//   console.error(e);
+// } finally {
+//   console.log("後続の処理");
+// }
 
-let greeting2
+let greeting2 = 'こんにちは';
+
+try {
+  if (typeof greeting2 !== 'string') {
+    throw new Error('不正なデータ型です！');
+  }
+    console.log(`${greeting2}、いい天気ですね！`);
+} catch (e) {
+    console.log(e);
+  }
+
+// let i = 0;
+// while (i <= 6) {
+//   //i +=2;
+//   console.log(i);
+//   i +=2;
+// }
+
+// for (let i = 0; i <= 9; i += 3) {
+//   console.log(i);
+// }
+
+const arry = [ 10, 20, 23, 47 ];
+// Try it
+
 
