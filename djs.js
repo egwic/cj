@@ -72,3 +72,28 @@ counter.num = counter.num + 1;
 
 //
 // Finish to chapter 3
+
+const person = {
+  name : "Bob",
+  age : 28,
+  gender : "male"
+}
+
+if (person.gender === "male" && person.age >= 25) {
+  console.log(`Bobは25歳以上の男性です。`);
+}
+else {
+ console.log(`Bobは25歳以上の男性ではありません。`);
+}
+
+let val8 = "";
+if ( ! val8) {
+  val8 = "Hello";
+}
+
+let val9 = null;
+if (val9 === null || val9 === undefined) {
+  val9 = "Hello";
+}
+
+console.log(val8, val9);
